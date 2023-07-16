@@ -42,6 +42,7 @@ rsync -av --prune-empty-dirs \
 rsync -av --prune-empty-dirs \
 --include="*.bsp" \
 --include="*.txt" \
+--include="*.res" \
 --exclude="*" \
 ./cstrike/maps/ ./assets/maps/
 
